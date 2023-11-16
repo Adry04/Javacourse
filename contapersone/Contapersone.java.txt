@@ -1,0 +1,12 @@
+public class Contapersone {
+    public int getPersone() {
+        return persone;
+    }
+    public void addPersona() {
+        ++persone;
+    }
+    public void reset() {
+        persone = 0;
+    }
+    private int persone;
+}

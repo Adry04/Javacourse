@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        Contapersone c = new Contapersone();
+        c.reset();
+        c.addPersona();
+        c.addPersona();
+        c.addPersona();
+        c.addPersona();
+        c.reset();
+        System.out.println(c.getPersone());
+    }
+}

@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        Auto a = new Auto("citroen", "C3","SAL3RN0", 60, 20);
+        Auto b = new Auto("bmw", "M3", "ALTF4XZ", 80, 25);
+        System.out.println("L'auto "+a.getMarca()+a.getNome()+" targa "+a.getTarga()+" serbatoio da "+a.getFuel()+" litri, percorre "+a.getKmperliter()+" km per litro e ha come autonomia "+a.calcAutonomy()+" km con il pieno");
+        System.out.println("L'auto "+b.getMarca()+b.getNome()+" targa "+b.getTarga()+" serbatoio da "+b.getFuel()+" litri, percorre "+b.getKmperliter()+" km per litro e ha come autonomia "+b.calcAutonomy()+" km con il pieno");
+    }
+}
